@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Trip</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="grid-container">
+    <section class="img-container">
+      <img src="./img/resort-1.png" alt="">
+    </section>
+
+    <section class="form-container">
+      <div class="detail-container">
+        <img src="./img/island.svg" alt="">
+        <h1>BOOK YOUR TRIP</h1>
+      </div>
+      <form name="cadastro" id="cadastro">
+        <div class="names-container">
+          <div class="firstname-item">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" required>
+          </div>
+          <div class="lastname-item">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" required>
+          </div>
+        </div>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <label for="phone">Phone</label>
+        <select name="code" id="code">
+          <option value="phone-code">+55</option>
+          <option value="phone-code">+56</option>
+          <option value="phone-code">+52</option>
+          <option value="phone-code">+34</option>
+          <option value="phone-code">+32</option>
+          <option value="phone-code">+1</option>
+        </select>
+        <input type="tel" name="phone">
+  
+        <div class="terms-container">
+          <input type="checkbox">
+          <p for="">I’ve read and agree with <span>Terms of Service</span> and our Privacy policy</p>
+          <input type="checkbox">
+          <p for="">Agree to receive our news and promotions by email</p>
+        </div>
+
+        
+      </form>
+      <button>Sign up</button>
+    </section>
+
+    
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
